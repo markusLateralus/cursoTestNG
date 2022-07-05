@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://www.demoblaze.com/"/>
+  <test thread-count="5" name="Test con Chrome(failed)">
+    <parameter name="TipoNavegador" value="Chrome"/>
+    <classes>
+      <class name="AinicioTestNG.GreportarPruebas">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="login2"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- AinicioTestNG.GreportarPruebas -->
+    </classes>
+  </test> <!-- Test con Chrome(failed) -->
+  <test thread-count="5" name="Test con Internet Explorer(failed)">
+    <parameter name="TipoNavegador" value="InternetExplorer"/>
+    <classes>
+      <class name="AinicioTestNG.GreportarPruebas">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="login2"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- AinicioTestNG.GreportarPruebas -->
+    </classes>
+  </test> <!-- Test con Internet Explorer(failed) -->
+</suite> <!-- Failed suite [Suite] -->

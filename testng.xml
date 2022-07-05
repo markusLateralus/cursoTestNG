@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <parameter name="URL" value="https://the-internet.herokuapp.com/download"/>
+  <test name="Test con Chrome">
+  <parameter name="TipoNavegador" value="Chrome"/>
+    <classes>
+      <class name="AinicioTestNG.HdescargarArcivos"/>
+    </classes>
+  </test>
+  <!-- 
+    <test name="Test con Internet Explorer">
+  <parameter name="TipoNavegador" value="InternetExplorer"/>
+    <classes>
+      <class name="AinicioTestNG.GreportarPruebas"/>
+    </classes>
+  </test> -->
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grupo de casos de tests que voy a ejecutar" time-out="8000">
+<test name="subGrupo del grupo ">
+<classes>
+<class name="AinicioTestNG.FejecutarVariasClases"/>
+<class name="AinicioTestNG.FejecutarVariasClases2"/>
+<class name="AinicioTestNG.DsuiteTimeout"/>
+</classes>
+</test>
+</suite>
