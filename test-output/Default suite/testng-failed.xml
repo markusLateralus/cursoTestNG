@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AinicioTestNG.HdescargarArchivos">
+      <class name="AinicioTestNG.EiTestResult">
         <methods>
-          <include name="beforeClass"/>
-          <include name="verificarTipo"/>
           <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="test3"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- AinicioTestNG.HdescargarArchivos -->
+      </class> <!-- AinicioTestNG.EiTestResult -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

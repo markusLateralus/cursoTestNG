@@ -21,7 +21,6 @@ import org.testng.annotations.AfterSuite;
  * */
 
 
-
 public class CdescribirMetodo {
 	
 	public String baseUrl = "http://demo.guru99.com/test/newtours/";

@@ -10,6 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
  * se encarga de dar las configuraciones de tamaño y posicion del navegador
  * se encarga de abrir el tipo de navegador que se le solicite
  * 
+ * 
  * */
 public class BrowserManager {
 

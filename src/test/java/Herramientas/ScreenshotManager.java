@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
  * es encargada de realizar capturas de pantallas y almacenarlas
  * 
  * 
+ * 
  * */
 public class ScreenshotManager {
 	
